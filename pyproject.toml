@@ -6,7 +6,7 @@ requires = [
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "ALignment Project"
+name = "Align"
 authors = [{name = "Isiac Orr", email = "Isiac.Orr@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -16,7 +16,8 @@ dependencies = [
     "pytest",
     "numpy",
     "typing",
+    "scikit-learn"
 ]
 
 [project.urls]
-Home = "https://github.com/IsiacOrr13/HW5"
+Home = "https://github.com/IsiacOrr13/HW4"
