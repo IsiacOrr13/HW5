@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+	"flit_core >=3.2,<4",
+	"python_version >= '3.8'"
+	]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ALignment Project"
+authors = [{name = "Isiac Orr", email = "Isiac.Orr@ucsf.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pytest",
+    "numpy",
+    "typing",
+]
+
+[project.urls]
+Home = "https://github.com/IsiacOrr13/HW5"
