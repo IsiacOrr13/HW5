@@ -6,7 +6,7 @@ requires = [
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "Align"
+name = "align"
 authors = [{name = "Isiac Orr", email = "Isiac.Orr@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
